@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NIVEA MEN Creme – Fuerza que Protege</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">NIVEA MEN</div>
+  <ul class="nav-links">
+    <li><a href="#features">Beneficios</a></li>
+    <li><a href="#uso">Modo de Uso</a></li>
+    <li><a href="#testimonios">Reseñas</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Comprar Ahora</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-text">
+    <div class="hero-badge">Fórmula Original · Desde 1986</div>
+    <h1 class="hero-title">NIVEA MEN<br><span>CREME</span></h1>
+    <p class="hero-sub">
+      La crema multiusos más icónica del mundo. Hidratación intensa que protege,
+      repara y fortalece tu piel — cara, manos y cuerpo — todo en un solo producto.
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">Descubrir Más</button>
+      <button class="btn-ghost" onclick="document.getElementById('cta').scrollIntoView({behavior:'smooth'})">Conseguir el Mío</button>
+    </div>
+  </div>
+
+  <div class="hero-image-wrap">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="can" id="productCan">
+      <img src="product.png" alt="NIVEA MEN Creme 150ml" />
+      <div class="can-tooltip">✦ Hidratación 24h</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat"><div class="stat-num">100+</div><div class="stat-label">Años de Historia</div></div>
+  <div class="stat"><div class="stat-num">50ml</div><div class="stat-label">& 150ml disponibles</div></div>
+  <div class="stat"><div class="stat-num">3</div><div class="stat-label">Zonas en 1 crema</div></div>
+  <div class="stat"><div class="stat-num">4.9★</div><div class="stat-label">Calificación Promedio</div></div>
+</div>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="section-label">¿Por qué elegirla?</div>
+  <h2 class="section-title">Beneficios que Marcan<br>la Diferencia</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">💧</div>
+      <div class="feature-name">Hidratación Profunda</div>
+      <p class="feature-desc">Su fórmula enriquecida con eucerita y pantenol penetra en la piel seca y la repara desde adentro, manteniéndola suave por 24 horas.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🛡️</div>
+      <div class="feature-name">Protección Diaria</div>
+      <p class="feature-desc">Forma una barrera protectora contra factores externos como el frío, el viento y la piel agredida por el afeitado diario.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">✋</div>
+      <div class="feature-name">Multiusos Total</div>
+      <p class="feature-desc">Cara, cuello, manos y cuerpo. Un solo producto para toda tu rutina de cuidado masculino. Simple y eficaz.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <div class="feature-name">Absorción Rápida</div>
+      <p class="feature-desc">Textura ligera que no deja sensación grasosa. Se absorbe rápidamente para que puedas seguir con tu día sin interrupciones.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌿</div>
+      <div class="feature-name">Dermatológicamente Probada</div>
+      <p class="feature-desc">Testada bajo control dermatológico, apta para pieles sensibles y post-afeitado. Suave pero poderosa.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🏆</div>
+      <div class="feature-name">Marca #1 Mundial</div>
+      <p class="feature-desc">NIVEA es la marca de cuidado de piel más reconocida del planeta. La preferida por millones de hombres en más de 200 países.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO USE -->
+<section id="uso">
+  <div class="section-label">Modo de Uso</div>
+  <h2 class="section-title">3 Pasos, Piel Perfecta</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-icon">🚿</div>
+      <div class="step-title">Limpia tu Piel</div>
+      <p class="step-text">Lava tu rostro y manos con agua tibia para abrir los poros y preparar la piel para la hidratación.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-icon">✋</div>
+      <div class="step-title">Aplica la Crema</div>
+      <p class="step-text">Toma una pequeña cantidad de NIVEA MEN Creme y extiéndela uniformemente sobre las zonas a tratar.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-icon">🔄</div>
+      <div class="step-title">Masajea y Listo</div>
+      <p class="step-text">Masajea suavemente con movimientos circulares hasta su completa absorción. ¡Úsala mañana y noche!</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonios">
+  <div class="section-label">Lo que dicen ellos</div>
+  <h2 class="section-title">Opiniones Reales</h2>
+  <div class="testimonials-grid">
+    <div class="tcard">
+      <div class="tcard-stars">★★★★★</div>
+      <p class="tcard-quote">"La uso después de afeitarme cada mañana. No hay nada mejor para calmar la irritación y dejar la piel suave todo el día."</p>
+      <div class="tcard-author">— Carlos M., 34 años</div>
+    </div>
+    <div class="tcard">
+      <div class="tcard-stars">★★★★★</div>
+      <p class="tcard-quote">"Trabajo en construcción y mis manos quedaban muy resecas. Desde que uso NIVEA MEN Creme cambió todo. Hidratación real."</p>
+      <div class="tcard-author">— Ramón S., 41 años</div>
+    </div>
+    <div class="tcard">
+      <div class="tcard-stars">★★★★☆</div>
+      <p class="tcard-quote">"La compré por curiosidad y no la pienso cambiar. Un solo tarro me dura semanas y funciona para cara y manos. Muy completa."</p>
+      <div class="tcard-author">— Diego L., 27 años</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section id="cta">
+  <div class="cta-text">
+    <h2>¿Listo para Sentir<br>la Diferencia?</h2>
+    <p>NIVEA MEN Creme disponible en farmacias, supermercados y tiendas de cuidado personal. Dale a tu piel lo que merece.</p>
+  </div>
+  <div class="cta-actions">
+    <button class="btn-primary" id="btnTienda" onclick="openStoreModal()">Encontrar Tienda</button>
+    <button class="btn-ghost" id="btnOnline" onclick="window.open('https://www.nivea.es/productos/nivea-men-creme-40059001307610244.html', '_blank')">Comprar en Línea</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 <strong>NIVEA MEN</strong> — Beiersdorf AG · Todos los derechos reservados · Página creada por Luis Yadil Sanchez Abreu</p>
+</footer>
+
+
+<!-- MODAL: ENCONTRAR TIENDA -->
+<div id="storeModal" class="modal-overlay" onclick="closeStoreModal(event)">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeStoreModal()">✕</button>
+    <div class="modal-header">
+      <div class="modal-icon">📍</div>
+      <h3>¿Dónde Encontrarla?</h3>
+      <p>NIVEA MEN Creme disponible en tus tiendas favoritas</p>
+    </div>
+    <div class="store-list">
+      <div class="store-item">
+        <div class="store-logo farmacia">💊</div>
+        <div class="store-info">
+          <div class="store-name">Farmacias Carol</div>
+          <div class="store-desc">Disponible en todas las sucursales a nivel nacional</div>
+        </div>
+        <div class="store-badge">Nacional</div>
+      </div>
+      <div class="store-item">
+        <div class="store-logo super">🛒</div>
+        <div class="store-info">
+          <div class="store-name">La Sirena</div>
+          <div class="store-desc">Sección de cuidado personal · 50ml y 150ml</div>
+        </div>
+        <div class="store-badge">Nacional</div>
+      </div>
+      <div class="store-item">
+        <div class="store-logo super">🛒</div>
+        <div class="store-info">
+          <div class="store-name">Jumbo / Nacional</div>
+          <div class="store-desc">Supermercado · Sección belleza y cuidado</div>
+        </div>
+        <div class="store-badge">Nacional</div>
+      </div>
+      <div class="store-item">
+        <div class="store-logo farmacia">💊</div>
+        <div class="store-info">
+          <div class="store-name">Farmacia Dr. Báez</div>
+          <div class="store-desc">Cadena de farmacias · Múltiples presentaciones</div>
+        </div>
+        <div class="store-badge">R.D.</div>
+      </div>
+      <div class="store-item">
+        <div class="store-logo beauty">✨</div>
+        <div class="store-info">
+          <div class="store-name">Plaza Lama</div>
+          <div class="store-desc">Tienda departamental · Sección cuidado masculino</div>
+        </div>
+        <div class="store-badge">R.D.</div>
+      </div>
+      <div class="store-item">
+        <div class="store-logo beauty">✨</div>
+        <div class="store-info">
+          <div class="store-name">Buen Precio</div>
+          <div class="store-desc">Supermercado · Precios competitivos</div>
+        </div>
+        <div class="store-badge">R.D.</div>
+      </div>
+    </div>
+    <button class="modal-cta" onclick="window.open('https://google.com/maps?q=farmacia')">
+      🗺️ Ver en Google Maps
+    </button>
+  </div>
+</div>
+
+<script>
+  // 3D tilt effect tracking mouse position
+  const can = document.getElementById('productCan');
+  const wrap = can.parentElement;
+
+  wrap.addEventListener('mousemove', (e) => {
+    const rect = can.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    const dx = (e.clientX - cx) / (rect.width / 2);
+    const dy = (e.clientY - cy) / (rect.height / 2);
+    const tiltX = dy * -18;
+    const tiltY = dx * 18;
+    can.style.transform = `perspective(600px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale(1.06)`;
+  });
+
+  wrap.addEventListener('mouseleave', () => {
+    can.style.transform = '';
+    can.style.transition = 'transform .6s cubic-bezier(.34,1.56,.64,1)';
+    setTimeout(() => { can.style.transition = ''; }, 600);
+  });
+
+  // Store modal
+  function openStoreModal() {
+    const modal = document.getElementById('storeModal');
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeStoreModal(e) {
+    if (!e || e.target === document.getElementById('storeModal')) {
+      document.getElementById('storeModal').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeStoreModal();
+  });
+</script>
+</body>
+</html>
